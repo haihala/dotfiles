@@ -10,3 +10,7 @@ echo "linked dotfiles"
 # Binaries
 ln -fs $CONFIG_ROOT/bin $HOME
 echo "linked binaries"
+
+# Home ".config"
+ln -fs $CONFIG_ROOT/home_config/* $HOME/.config/
+echo "linked .config"

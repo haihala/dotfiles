@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIRNAME="$HOME/notes"
+DIRNAME="$HOME/Documents/notes"
 
 if [ ! -d "$DIRNAME" ]; then
     mkdir $DIRNAME

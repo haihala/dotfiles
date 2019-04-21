@@ -31,5 +31,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# Disable bell in x applications
+xset b off
+
 # Start wm
 exec i3

@@ -34,8 +34,5 @@ fi
 # Disable bell in x applications
 xset b off
 
-# Background
-feh --bg-max --randomize ~/.wallpaper/* &
-
 # Start wm
 exec i3

@@ -3,7 +3,7 @@
 DIRNAME="$HOME/Documents/notes"
 
 if [ ! -d "$DIRNAME" ]; then
-    mkdir $DIRNAME
+    mkdir -p $DIRNAME
 fi
 
 

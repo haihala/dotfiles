@@ -1,0 +1,555 @@
+2018-12-13 00:38:50	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:38:51	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2018-12-13 00:38:51	--	irc1.fixme.fi: *** Looking up your hostname...
+2018-12-13 00:38:51	--	irc1.fixme.fi: *** Checking ident...
+2018-12-13 00:38:51	--	irc1.fixme.fi: *** Found your hostname
+2018-12-13 00:39:02	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2018-12-13 00:39:02	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2018-12-13 00:39:02	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2018-12-13 00:39:02	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2018-12-13 00:39:02	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-12-13 00:39:02	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-12-13 00:39:02	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-12-13 00:39:02	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-12-13 00:39:02	--	There are 71 users and 104 invisible on 3 servers
+2018-12-13 00:39:02	--	4 :operator(s) online
+2018-12-13 00:39:02	--	105 :channels formed
+2018-12-13 00:39:02	--	I have 48 clients and 1 servers
+2018-12-13 00:39:02	--	48 79 :Current local users 48, max 79
+2018-12-13 00:39:02	--	175 551 :Current global users 175, max 551
+2018-12-13 00:39:02	--	- irc1.fixme.fi Message of the Day -
+2018-12-13 00:39:02	--	- 25/11/2017 13:43
+2018-12-13 00:39:02	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2018-12-13 00:39:02	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2018-12-13 00:39:02	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2018-12-13 00:39:02	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2018-12-13 00:39:02	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2018-12-13 00:39:02	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2018-12-13 00:39:02	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2018-12-13 00:39:02	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2018-12-13 00:39:02	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2018-12-13 00:39:02	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2018-12-13 00:39:02	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2018-12-13 00:39:02	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2018-12-13 00:39:02	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2018-12-13 00:39:02	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2018-12-13 00:39:02	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2018-12-13 00:39:02	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2018-12-13 00:39:02	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2018-12-13 00:39:02	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2018-12-13 00:39:02	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2018-12-13 00:39:02	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2018-12-13 00:39:02	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2018-12-13 00:39:02	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2018-12-13 00:39:02	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2018-12-13 00:39:02	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2018-12-13 00:39:02	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2018-12-13 00:39:02	--	End of /MOTD command.
+2018-12-13 00:39:02	--	User mode [+w] by revol
+2018-12-13 00:39:02	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-13 00:39:17	--	MSG(nickserv): identify *******
+2018-12-13 00:39:18	--	NickServ (NickServ@services.int): You are now identified for revol.
+2018-12-13 00:49:50	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:50:10	=!=	irc: address "irc.paivola.fi" not found
+2018-12-13 00:50:10	=!=	irc: error: Temporary failure in name resolution
+2018-12-13 00:50:10	--	irc: reconnecting to server in 10 seconds
+2018-12-13 00:50:20	--	irc: reconnecting to server...
+2018-12-13 00:50:20	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:50:40	=!=	irc: address "irc.paivola.fi" not found
+2018-12-13 00:50:40	=!=	irc: error: Temporary failure in name resolution
+2018-12-13 00:50:40	--	irc: reconnecting to server in 20 seconds
+2018-12-13 00:51:00	--	irc: reconnecting to server...
+2018-12-13 00:51:00	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:51:20	=!=	irc: address "irc.paivola.fi" not found
+2018-12-13 00:51:20	=!=	irc: error: Temporary failure in name resolution
+2018-12-13 00:51:20	--	irc: reconnecting to server in 40 seconds
+2018-12-13 00:52:00	--	irc: reconnecting to server...
+2018-12-13 00:52:00	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:52:20	=!=	irc: address "irc.paivola.fi" not found
+2018-12-13 00:52:20	=!=	irc: error: Temporary failure in name resolution
+2018-12-13 00:52:20	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-13 00:53:40	--	irc: reconnecting to server...
+2018-12-13 00:53:40	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:54:00	=!=	irc: address "irc.paivola.fi" not found
+2018-12-13 00:54:00	=!=	irc: error: Temporary failure in name resolution
+2018-12-13 00:54:00	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-13 00:56:40	--	irc: reconnecting to server...
+2018-12-13 00:56:40	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-13 00:56:40	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2018-12-13 00:56:40	--	irc1.fixme.fi: *** Looking up your hostname...
+2018-12-13 00:56:40	--	irc1.fixme.fi: *** Checking ident...
+2018-12-13 00:56:40	--	irc1.fixme.fi: *** Found your hostname
+2018-12-13 00:56:50	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2018-12-13 00:56:50	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2018-12-13 00:56:50	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2018-12-13 00:56:50	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2018-12-13 00:56:50	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-12-13 00:56:50	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-12-13 00:56:50	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-12-13 00:56:50	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-12-13 00:56:50	--	There are 71 users and 104 invisible on 3 servers
+2018-12-13 00:56:50	--	4 :operator(s) online
+2018-12-13 00:56:50	--	105 :channels formed
+2018-12-13 00:56:50	--	I have 48 clients and 1 servers
+2018-12-13 00:56:50	--	48 79 :Current local users 48, max 79
+2018-12-13 00:56:50	--	175 551 :Current global users 175, max 551
+2018-12-13 00:56:50	--	- irc1.fixme.fi Message of the Day -
+2018-12-13 00:56:50	--	- 25/11/2017 13:43
+2018-12-13 00:56:50	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2018-12-13 00:56:50	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2018-12-13 00:56:50	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2018-12-13 00:56:50	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2018-12-13 00:56:50	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2018-12-13 00:56:50	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2018-12-13 00:56:50	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2018-12-13 00:56:50	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2018-12-13 00:56:50	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2018-12-13 00:56:50	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2018-12-13 00:56:50	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2018-12-13 00:56:50	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2018-12-13 00:56:50	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2018-12-13 00:56:50	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2018-12-13 00:56:50	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2018-12-13 00:56:50	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2018-12-13 00:56:50	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2018-12-13 00:56:50	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2018-12-13 00:56:50	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2018-12-13 00:56:50	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2018-12-13 00:56:50	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2018-12-13 00:56:50	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2018-12-13 00:56:50	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2018-12-13 00:56:50	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2018-12-13 00:56:50	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2018-12-13 00:56:50	--	End of /MOTD command.
+2018-12-13 00:56:50	--	User mode [+w] by revol
+2018-12-13 00:56:50	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-13 02:22:55	--	MSG(nickserv): identify *******
+2018-12-13 02:22:56	--	NickServ (NickServ@services.int): You are now identified for revol.
+2018-12-18 04:59:11	=!=	irc: reading data on socket: error 110 Connection timed out
+2018-12-18 04:59:11	--	irc: disconnecting from server...
+2018-12-18 04:59:11	--	irc: disconnected from server
+2018-12-18 04:59:11	--	irc: reconnecting to server in 10 seconds
+2018-12-18 04:59:21	--	irc: reconnecting to server...
+2018-12-18 04:59:21	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:00:17	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:00:17	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:00:17	--	irc: reconnecting to server in 20 seconds
+2018-12-18 05:00:37	--	irc: reconnecting to server...
+2018-12-18 05:00:37	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:01:33	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:01:33	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:01:33	--	irc: reconnecting to server in 40 seconds
+2018-12-18 05:02:13	--	irc: reconnecting to server...
+2018-12-18 05:02:13	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:03:09	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:03:09	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:03:09	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-18 05:04:29	--	irc: reconnecting to server...
+2018-12-18 05:04:29	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:05:25	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:05:25	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:05:25	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-18 05:08:05	--	irc: reconnecting to server...
+2018-12-18 05:08:05	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:09:01	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:09:01	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:09:01	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2018-12-18 05:14:21	--	irc: reconnecting to server...
+2018-12-18 05:14:21	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:15:17	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:15:17	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:15:17	--	irc: reconnecting to server in 10 minutes
+2018-12-18 05:25:17	--	irc: reconnecting to server...
+2018-12-18 05:25:17	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:26:13	=!=	irc: address "irc.paivola.fi" not found
+2018-12-18 05:26:13	=!=	irc: error: Temporary failure in name resolution
+2018-12-18 05:26:13	--	irc: reconnecting to server in 10 minutes
+2018-12-18 05:36:13	--	irc: reconnecting to server...
+2018-12-18 05:36:13	--	irc: connecting to server irc.paivola.fi/6667...
+2018-12-18 05:36:13	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2018-12-18 05:36:13	--	irc1.fixme.fi: *** Looking up your hostname...
+2018-12-18 05:36:13	--	irc1.fixme.fi: *** Checking ident...
+2018-12-18 05:36:13	--	irc1.fixme.fi: *** Found your hostname
+2018-12-18 05:36:24	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2018-12-18 05:36:24	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2018-12-18 05:36:24	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2018-12-18 05:36:24	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2018-12-18 05:36:24	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-12-18 05:36:24	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-12-18 05:36:24	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-12-18 05:36:24	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-12-18 05:36:24	--	There are 69 users and 104 invisible on 3 servers
+2018-12-18 05:36:24	--	4 :operator(s) online
+2018-12-18 05:36:24	--	106 :channels formed
+2018-12-18 05:36:24	--	I have 47 clients and 1 servers
+2018-12-18 05:36:24	--	47 79 :Current local users 47, max 79
+2018-12-18 05:36:24	--	173 551 :Current global users 173, max 551
+2018-12-18 05:36:24	--	- irc1.fixme.fi Message of the Day -
+2018-12-18 05:36:24	--	- 25/11/2017 13:43
+2018-12-18 05:36:24	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2018-12-18 05:36:24	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2018-12-18 05:36:24	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2018-12-18 05:36:24	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2018-12-18 05:36:24	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2018-12-18 05:36:24	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2018-12-18 05:36:24	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2018-12-18 05:36:24	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2018-12-18 05:36:24	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2018-12-18 05:36:24	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2018-12-18 05:36:24	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2018-12-18 05:36:24	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2018-12-18 05:36:24	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2018-12-18 05:36:24	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2018-12-18 05:36:24	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2018-12-18 05:36:24	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2018-12-18 05:36:24	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2018-12-18 05:36:24	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2018-12-18 05:36:24	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2018-12-18 05:36:24	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2018-12-18 05:36:24	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2018-12-18 05:36:24	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2018-12-18 05:36:24	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2018-12-18 05:36:24	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2018-12-18 05:36:24	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2018-12-18 05:36:24	--	End of /MOTD command.
+2018-12-18 05:36:24	--	User mode [+w] by revol
+2018-12-18 05:36:24	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-18 13:33:53	--	MSG(nickserv): identify *******
+2018-12-18 13:33:53	--	NickServ (NickServ@services.int): You are now identified for revol.
+2019-01-16 13:46:26	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-01-16 14:32:52	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2019-01-16 14:32:52	--	irc: disconnecting from server...
+2019-01-16 14:32:52	--	irc: disconnected from server
+2019-01-16 14:32:52	--	irc: reconnecting to server in 10 seconds
+2019-01-16 14:33:02	--	irc: reconnecting to server...
+2019-01-16 14:33:02	--	irc: connecting to server irc.paivola.fi/6667...
+2019-01-16 14:33:02	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2019-01-16 14:33:02	--	irc1.fixme.fi: *** Looking up your hostname...
+2019-01-16 14:33:02	--	irc1.fixme.fi: *** Checking ident...
+2019-01-16 14:33:02	--	irc1.fixme.fi: *** Found your hostname
+2019-01-16 14:33:13	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2019-01-16 14:33:13	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2019-01-16 14:33:13	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2019-01-16 14:33:13	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2019-01-16 14:33:13	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2019-01-16 14:33:13	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2019-01-16 14:33:13	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2019-01-16 14:33:13	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2019-01-16 14:33:13	--	There are 75 users and 106 invisible on 3 servers
+2019-01-16 14:33:13	--	4 :operator(s) online
+2019-01-16 14:33:13	--	102 :channels formed
+2019-01-16 14:33:13	--	I have 45 clients and 1 servers
+2019-01-16 14:33:13	--	45 79 :Current local users 45, max 79
+2019-01-16 14:33:13	--	181 551 :Current global users 181, max 551
+2019-01-16 14:33:13	--	- irc1.fixme.fi Message of the Day -
+2019-01-16 14:33:13	--	- 25/11/2017 13:43
+2019-01-16 14:33:13	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2019-01-16 14:33:13	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2019-01-16 14:33:13	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2019-01-16 14:33:13	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2019-01-16 14:33:13	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2019-01-16 14:33:13	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2019-01-16 14:33:13	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2019-01-16 14:33:13	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2019-01-16 14:33:13	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2019-01-16 14:33:13	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2019-01-16 14:33:13	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2019-01-16 14:33:13	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2019-01-16 14:33:13	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2019-01-16 14:33:13	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2019-01-16 14:33:13	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2019-01-16 14:33:13	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2019-01-16 14:33:13	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2019-01-16 14:33:13	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2019-01-16 14:33:13	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2019-01-16 14:33:13	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2019-01-16 14:33:13	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2019-01-16 14:33:13	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2019-01-16 14:33:13	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2019-01-16 14:33:13	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2019-01-16 14:33:13	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2019-01-16 14:33:13	--	End of /MOTD command.
+2019-01-16 14:33:13	--	User mode [+w] by revol
+2019-01-16 14:33:13	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-01-16 15:19:07	--	MSG(nickserv): identify *******
+2019-01-16 15:19:08	--	NickServ (NickServ@services.int): You are now identified for revol.
+2019-02-24 04:39:36	=!=	Closing Link: revol[dsl-trebng21-58c19f-89.dhcp.inet.fi] (Ping timeout: 246 seconds)
+2019-02-24 04:39:36	--	irc: disconnected from server
+2019-02-24 04:39:36	--	irc: reconnecting to server in 10 seconds
+2019-02-24 04:39:46	--	irc: reconnecting to server...
+2019-02-24 04:39:46	--	irc: connecting to server irc.paivola.fi/6667...
+2019-02-24 04:40:46	=!=	irc: timeout
+2019-02-24 04:40:46	--	irc: reconnecting to server in 20 seconds
+2019-02-24 04:41:06	--	irc: reconnecting to server...
+2019-02-24 04:41:06	--	irc: connecting to server irc.paivola.fi/6667...
+2019-02-24 04:42:06	=!=	irc: timeout
+2019-02-24 04:42:06	--	irc: reconnecting to server in 40 seconds
+2019-02-24 04:42:46	--	irc: reconnecting to server...
+2019-02-24 04:42:46	--	irc: connecting to server irc.paivola.fi/6667...
+2019-02-24 04:43:46	=!=	irc: timeout
+2019-02-24 04:43:46	--	irc: reconnecting to server in 1 minute, 20 seconds
+2019-02-24 04:45:06	--	irc: reconnecting to server...
+2019-02-24 04:45:06	--	irc: connecting to server irc.paivola.fi/6667...
+2019-02-24 04:46:06	=!=	irc: timeout
+2019-02-24 04:46:06	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2019-02-24 04:48:46	--	irc: reconnecting to server...
+2019-02-24 04:48:46	--	irc: connecting to server irc.paivola.fi/6667...
+2019-02-24 04:48:46	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2019-02-24 04:48:46	--	irc1.fixme.fi: *** Looking up your hostname...
+2019-02-24 04:48:46	--	irc1.fixme.fi: *** Checking ident...
+2019-02-24 04:48:46	--	irc1.fixme.fi: *** Found your hostname
+2019-02-24 04:48:57	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2019-02-24 04:48:57	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2019-02-24 04:48:57	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2019-02-24 04:48:57	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2019-02-24 04:48:57	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2019-02-24 04:48:57	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2019-02-24 04:48:57	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2019-02-24 04:48:57	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2019-02-24 04:48:57	--	There are 79 users and 98 invisible on 3 servers
+2019-02-24 04:48:57	--	4 :operator(s) online
+2019-02-24 04:48:57	--	104 :channels formed
+2019-02-24 04:48:57	--	I have 36 clients and 1 servers
+2019-02-24 04:48:57	--	36 79 :Current local users 36, max 79
+2019-02-24 04:48:57	--	177 551 :Current global users 177, max 551
+2019-02-24 04:48:57	--	- irc1.fixme.fi Message of the Day -
+2019-02-24 04:48:57	--	- 25/11/2017 13:43
+2019-02-24 04:48:57	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2019-02-24 04:48:57	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2019-02-24 04:48:57	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2019-02-24 04:48:57	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2019-02-24 04:48:57	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2019-02-24 04:48:57	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2019-02-24 04:48:57	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2019-02-24 04:48:57	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2019-02-24 04:48:57	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2019-02-24 04:48:57	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2019-02-24 04:48:57	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2019-02-24 04:48:57	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2019-02-24 04:48:57	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2019-02-24 04:48:57	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2019-02-24 04:48:57	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2019-02-24 04:48:57	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2019-02-24 04:48:57	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2019-02-24 04:48:57	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2019-02-24 04:48:57	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2019-02-24 04:48:57	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2019-02-24 04:48:57	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2019-02-24 04:48:57	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2019-02-24 04:48:57	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2019-02-24 04:48:57	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2019-02-24 04:48:57	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2019-02-24 04:48:57	--	End of /MOTD command.
+2019-02-24 04:48:57	--	User mode [+w] by revol
+2019-02-24 04:48:57	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-02-24 11:53:59	--	MSG(nickserv): identify *******
+2019-02-24 11:53:59	--	NickServ (NickServ@services.int): You are now identified for revol.
+2019-03-06 14:49:26	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-03-23 18:51:37	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2019-03-23 18:51:37	--	irc: disconnecting from server...
+2019-03-23 18:51:37	--	irc: disconnected from server
+2019-03-23 18:51:37	--	irc: reconnecting to server in 10 seconds
+2019-03-23 18:51:47	--	irc: reconnecting to server...
+2019-03-23 18:51:47	--	irc: connecting to server irc.paivola.fi/6667...
+2019-03-23 18:51:47	=!=	irc: connection refused
+2019-03-23 18:51:47	--	irc: reconnecting to server in 20 seconds
+2019-03-23 18:52:07	--	irc: reconnecting to server...
+2019-03-23 18:52:07	--	irc: connecting to server irc.paivola.fi/6667...
+2019-03-23 18:53:07	=!=	irc: timeout
+2019-03-23 18:53:07	--	irc: reconnecting to server in 40 seconds
+2019-03-23 18:53:47	--	irc: reconnecting to server...
+2019-03-23 18:53:47	--	irc: connecting to server irc.paivola.fi/6667...
+2019-03-23 18:53:47	=!=	irc: connection refused
+2019-03-23 18:53:47	--	irc: reconnecting to server in 1 minute, 20 seconds
+2019-03-23 18:55:07	--	irc: reconnecting to server...
+2019-03-23 18:55:07	--	irc: connecting to server irc.paivola.fi/6667...
+2019-03-23 18:55:10	=!=	irc: connection refused
+2019-03-23 18:55:10	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2019-03-23 18:57:50	--	irc: reconnecting to server...
+2019-03-23 18:57:50	--	irc: connecting to server irc.paivola.fi/6667...
+2019-03-23 18:57:50	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2019-03-23 18:57:50	--	irc1.fixme.fi: *** Looking up your hostname...
+2019-03-23 18:57:50	--	irc1.fixme.fi: *** Checking ident...
+2019-03-23 18:57:50	--	irc1.fixme.fi: *** Found your hostname
+2019-03-23 18:58:00	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2019-03-23 18:58:00	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2019-03-23 18:58:00	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2019-03-23 18:58:00	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2019-03-23 18:58:00	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2019-03-23 18:58:00	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2019-03-23 18:58:00	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2019-03-23 18:58:00	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2019-03-23 18:58:00	--	There are 55 users and 50 invisible on 3 servers
+2019-03-23 18:58:00	--	4 :operator(s) online
+2019-03-23 18:58:00	--	94 :channels formed
+2019-03-23 18:58:00	--	I have 11 clients and 1 servers
+2019-03-23 18:58:00	--	11 11 :Current local users 11, max 11
+2019-03-23 18:58:00	--	105 551 :Current global users 105, max 551
+2019-03-23 18:58:00	--	- irc1.fixme.fi Message of the Day -
+2019-03-23 18:58:00	--	- 25/11/2017 13:43
+2019-03-23 18:58:00	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2019-03-23 18:58:00	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2019-03-23 18:58:00	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2019-03-23 18:58:00	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2019-03-23 18:58:00	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2019-03-23 18:58:00	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2019-03-23 18:58:00	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2019-03-23 18:58:00	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2019-03-23 18:58:00	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2019-03-23 18:58:00	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2019-03-23 18:58:00	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2019-03-23 18:58:00	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2019-03-23 18:58:00	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2019-03-23 18:58:00	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2019-03-23 18:58:00	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2019-03-23 18:58:00	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2019-03-23 18:58:00	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2019-03-23 18:58:00	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2019-03-23 18:58:00	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2019-03-23 18:58:00	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2019-03-23 18:58:00	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2019-03-23 18:58:00	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2019-03-23 18:58:00	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2019-03-23 18:58:00	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2019-03-23 18:58:00	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2019-03-23 18:58:00	--	End of /MOTD command.
+2019-03-23 18:58:00	--	User mode [+w] by revol
+2019-03-23 18:58:00	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-03-23 23:09:36	--	MSG(nickserv): identify *******
+2019-03-23 23:09:37	--	NickServ (NickServ@services.int): You are now identified for revol.
+2019-04-04 13:05:53	=!=	irc: reading data on socket: error 113 No route to host
+2019-04-04 13:05:53	--	irc: disconnecting from server...
+2019-04-04 13:05:53	--	irc: disconnected from server
+2019-04-04 13:05:53	--	irc: reconnecting to server in 10 seconds
+2019-04-04 13:06:03	--	irc: reconnecting to server...
+2019-04-04 13:06:03	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:06:05	=!=	irc: connection refused
+2019-04-04 13:06:05	--	irc: reconnecting to server in 20 seconds
+2019-04-04 13:06:25	--	irc: reconnecting to server...
+2019-04-04 13:06:25	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:06:27	=!=	irc: connection refused
+2019-04-04 13:06:27	--	irc: reconnecting to server in 40 seconds
+2019-04-04 13:07:07	--	irc: reconnecting to server...
+2019-04-04 13:07:07	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:07:07	=!=	irc: connection refused
+2019-04-04 13:07:07	--	irc: reconnecting to server in 1 minute, 20 seconds
+2019-04-04 13:08:27	--	irc: reconnecting to server...
+2019-04-04 13:08:27	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:08:45	=!=	irc: connection refused
+2019-04-04 13:08:45	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2019-04-04 13:11:25	--	irc: reconnecting to server...
+2019-04-04 13:11:25	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:11:25	=!=	irc: connection refused
+2019-04-04 13:11:25	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2019-04-04 13:16:45	--	irc: reconnecting to server...
+2019-04-04 13:16:45	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:16:45	=!=	irc: connection refused
+2019-04-04 13:16:45	--	irc: reconnecting to server in 10 minutes
+2019-04-04 13:26:45	--	irc: reconnecting to server...
+2019-04-04 13:26:45	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:26:47	=!=	irc: connection refused
+2019-04-04 13:26:47	--	irc: reconnecting to server in 10 minutes
+2019-04-04 13:36:47	--	irc: reconnecting to server...
+2019-04-04 13:36:47	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:37:20	=!=	irc: connection refused
+2019-04-04 13:37:20	--	irc: reconnecting to server in 10 minutes
+2019-04-04 13:47:20	--	irc: reconnecting to server...
+2019-04-04 13:47:20	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:47:21	=!=	irc: connection refused
+2019-04-04 13:47:21	--	irc: reconnecting to server in 10 minutes
+2019-04-04 13:57:21	--	irc: reconnecting to server...
+2019-04-04 13:57:21	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 13:57:22	=!=	irc: connection refused
+2019-04-04 13:57:22	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:07:22	--	irc: reconnecting to server...
+2019-04-04 14:07:22	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:07:24	=!=	irc: connection refused
+2019-04-04 14:07:24	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:17:24	--	irc: reconnecting to server...
+2019-04-04 14:17:24	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:17:29	=!=	irc: connection refused
+2019-04-04 14:17:29	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:27:29	--	irc: reconnecting to server...
+2019-04-04 14:27:29	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:27:39	=!=	irc: connection refused
+2019-04-04 14:27:39	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:37:39	--	irc: reconnecting to server...
+2019-04-04 14:37:39	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:37:41	=!=	irc: connection refused
+2019-04-04 14:37:41	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:47:41	--	irc: reconnecting to server...
+2019-04-04 14:47:41	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:47:43	=!=	irc: connection refused
+2019-04-04 14:47:43	--	irc: reconnecting to server in 10 minutes
+2019-04-04 14:57:43	--	irc: reconnecting to server...
+2019-04-04 14:57:43	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 14:57:46	=!=	irc: connection refused
+2019-04-04 14:57:46	--	irc: reconnecting to server in 10 minutes
+2019-04-04 15:07:46	--	irc: reconnecting to server...
+2019-04-04 15:07:46	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 15:07:54	=!=	irc: connection refused
+2019-04-04 15:07:54	--	irc: reconnecting to server in 10 minutes
+2019-04-04 15:17:54	--	irc: reconnecting to server...
+2019-04-04 15:17:54	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 15:18:06	=!=	irc: connection refused
+2019-04-04 15:18:06	--	irc: reconnecting to server in 10 minutes
+2019-04-04 15:28:06	--	irc: reconnecting to server...
+2019-04-04 15:28:06	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 15:28:14	=!=	irc: connection refused
+2019-04-04 15:28:14	--	irc: reconnecting to server in 10 minutes
+2019-04-04 15:38:14	--	irc: reconnecting to server...
+2019-04-04 15:38:14	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 15:38:14	=!=	irc: connection refused
+2019-04-04 15:38:14	--	irc: reconnecting to server in 10 minutes
+2019-04-04 15:48:14	--	irc: reconnecting to server...
+2019-04-04 15:48:14	--	irc: connecting to server irc.paivola.fi/6667...
+2019-04-04 15:48:15	--	irc: connected to irc.paivola.fi/6667 (91.105.251.150)
+2019-04-04 15:48:15	--	irc1.fixme.fi: *** Looking up your hostname...
+2019-04-04 15:48:15	--	irc1.fixme.fi: *** Checking ident...
+2019-04-04 15:48:15	--	irc1.fixme.fi: *** Found your hostname
+2019-04-04 15:48:25	--	irc1.fixme.fi: *** No ident response; username prefixed with ~
+2019-04-04 15:48:25	--	Welcome to the PVLNet IRC Network revol!~revol@dsl-trebng21-58c19f-89.dhcp.inet.fi
+2019-04-04 15:48:25	--	Your host is irc1.fixme.fi, running version Unreal3.2.10.7
+2019-04-04 15:48:25	--	This server was created Sat Nov 25 2017 at 12:40:29 UTC
+2019-04-04 15:48:25	--	irc1.fixme.fi Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2019-04-04 15:48:25	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=50 CHANLIMIT=#:50 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2019-04-04 15:48:25	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=PVLNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2019-04-04 15:48:25	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2019-04-04 15:48:25	--	There are 54 users and 60 invisible on 3 servers
+2019-04-04 15:48:25	--	4 :operator(s) online
+2019-04-04 15:48:25	--	89 :channels formed
+2019-04-04 15:48:25	--	I have 15 clients and 1 servers
+2019-04-04 15:48:25	--	15 15 :Current local users 15, max 15
+2019-04-04 15:48:25	--	114 551 :Current global users 114, max 551
+2019-04-04 15:48:25	--	- irc1.fixme.fi Message of the Day -
+2019-04-04 15:48:25	--	- 25/11/2017 13:43
+2019-04-04 15:48:25	--	- iiiiiirrrrcccccccc.........FFFFFFFFFFFIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+2019-04-04 15:48:25	--	- iiiirrrrrcccccccc.........FFFFFFFFFIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXI
+2019-04-04 15:48:25	--	- iiirrrrrcccccccc........FFFFFFFFFIIIIIIIIIIIXXXXXXXXXXXXXX< < < < < <
+2019-04-04 15:48:25	--	-  iirrrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXXXXX > > > > > >
+2019-04-04 15:48:25	--	-  iirrrrcccccccc........FFFFFFFFIIIIIIIIIXXXXXXXXXXXXXMMMMM< < < < < <
+2019-04-04 15:48:25	--	-   irrrrcccccccc........FFFFFFIIIIIIIIIXXXXXXXXXXMMMMMMMMMM > > > > > >
+2019-04-04 15:48:25	--	-    rrrrrccccccc........FFFFFFFIIIIIIXXXXXXXXXMMMMMMMMMMMMM< < < < < <
+2019-04-04 15:48:25	--	-    rrrrcccccccc.......FFFFFFFIIIIIIIIXXXXXXXXMMMMMMMMMMMMM > > > > > >
+2019-04-04 15:48:25	--	-     rrrrccccccc.......FFFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMMEEEEEEEEEEEMMMM
+2019-04-04 15:48:25	--	-     rrrcccccccc.......FFFFFFFIIIIIIIXXXXXXXXMMMMMMMMMEEEEEEEEEEEEEEEEE
+2019-04-04 15:48:25	--	-    rrrccccccc.......FFFFFFFIII IIIIXXXXXXXMMMMMMMEEEEEEEEEEEEEEEEEEEEE
+2019-04-04 15:48:25	--	-  rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMMEEEEEEEEE       EEEEEEE
+2019-04-04 15:48:25	--	- rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEEE           EEEEEE
+2019-04-04 15:48:25	--	- rrrccc ccc.......FFFF FFIIII IIXXXXXXXMMMMMMMEEEEEEE             EEEEE
+2019-04-04 15:48:25	--	-   rrrcccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEE   irc.FIXME EEEEE
+2019-04-04 15:48:25	--	-    rrrccccccc.......FFFFFFFIIIIIIIXXXXXXXMMMMMMMEEEEEEE            EEE
+2019-04-04 15:48:25	--	-     r rc  cccc.......FFFF FFI III IXXXXXXXMMMMMMMEEEEEEEE           EE
+2019-04-04 15:48:25	--	-   rrrccccccc.......F FFFFFIIIIIIIXXXX XXMMMMMMMEEEEEEEEE      EEEEEEEE
+2019-04-04 15:48:25	--	-  r  ccccccc......./ / / / / / / / / / X MMMMMMMMEEEEEEEEEEEEEEEEEEEEEE
+2019-04-04 15:48:25	--	-  rrrcccccccc...... / / / / / / / / / /XXXMMMMMMMMME EEEEEEEEEEEEEEEEEM
+2019-04-04 15:48:25	--	-  r rrcccccc......F/ / / / / / / / / / XMMMMMMMMMMEEEEEEEEEEEEEEEMMMMMM
+2019-04-04 15:48:25	--	- rrrrcccc ccc...... / / / / / / / / / /XXXXMMMMMM  MMMMM MMMMMMMMMMMMM
+2019-04-04 15:48:25	--	- rrrrrccccccc. ..../ / / / / / / / / / XXXXXXXMMMMMMMMMMMMMMMMMMMMMM MM
+2019-04-04 15:48:25	--	- rr  rccccc cc... . / / / / / / / / / / XX X X XXM  MM M  MMMMM MMM  MX
+2019-04-04 15:48:25	--	-   rr rccc cccc.  ./ / / / / / / / / / IXX XX XXXXXXX MMMMM M  MMMXX XX
+2019-04-04 15:48:25	--	End of /MOTD command.
+2019-04-04 15:48:25	--	User mode [+w] by revol
+2019-04-04 15:48:25	--	NickServ (NickServ@services.int): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-04-04 21:33:33	--	MSG(nickserv): identify *******
+2019-04-04 21:33:34	--	NickServ (NickServ@services.int): You are now identified for revol.

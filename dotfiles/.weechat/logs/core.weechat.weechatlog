@@ -1,0 +1,153 @@
+2018-12-13 00:32:19		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-12-13 00:32:31		script: downloading list of scripts...
+2018-12-13 00:32:51	=!=	script: error downloading list of scripts: curl error 6 (Could not resolve host: weechat.org) (URL: "https://weechat.org/files/plugins.xml.gz")
+2018-12-13 00:35:18		script: downloading list of scripts...
+2018-12-13 00:35:19		script: 357 scripts for WeeChat 1.6
+2018-12-13 00:35:38		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2018-12-13 00:35:41		URL server listening on ('127.0.1.1', 40883)
+2018-12-13 00:36:12		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2018-12-13 00:36:12		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2018-12-13 00:36:12		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2018-12-13 00:36:12		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2018-12-13 00:36:34		cron: file not found: "/home/revol/.weechat/cron.txt"
+2018-12-13 00:36:46		python: stdout/stderr: Traceback (most recent call last):
+2018-12-13 00:36:46		python: stdout/stderr:   File "/home/revol/.weechat/python/giphy.py", line 22, in <module>
+2018-12-13 00:36:46		python: stdout/stderr:     from requests import get
+2018-12-13 00:36:46		python: stdout/stderr: ImportError: No module named requests
+2018-12-13 00:36:46	=!=	python: unable to parse file "/home/revol/.weechat/python/giphy.py"
+2018-12-13 00:38:09	=!=	WARNING: the script weeget.py is obsolete since WeeChat 0.3.9 (it is replaced by command /script)
+2018-12-13 00:38:09	=!=	To uninstall weeget.py: /weeget remove weeget.py
+2018-12-13 00:38:32		No server
+2018-12-13 00:38:47		irc: server pvl added
+2018-12-13 00:40:30	=!=	Error: option "weechat.bar.buflist.size_max" not found
+2018-12-13 00:40:46		Option changed: weechat.bar.buffers.size_max = 40  (default: 0)
+2018-12-13 00:49:31		fifo: removing old fifo pipe "/home/revol/.weechat/weechat_fifo_13403"
+2018-12-13 00:49:31		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2018-12-13 00:49:31		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2018-12-13 00:49:31		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2018-12-13 00:49:31		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2018-12-13 00:49:31		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2018-12-13 00:49:31		perl scripts loaded: buffers, highmon, listsort
+2018-12-13 00:49:32		cron: file not found: "/home/revol/.weechat/cron.txt"
+2018-12-13 00:49:32		python: stdout/stderr: Traceback (most recent call last):
+2018-12-13 00:49:32		python: stdout/stderr:   File "/home/revol/.weechat/python/autoload/giphy.py", line 22, in <module>
+2018-12-13 00:49:32		python: stdout/stderr:     from requests import get
+2018-12-13 00:49:32		python: stdout/stderr: ImportError: No module named requests
+2018-12-13 00:49:32	=!=	python: unable to parse file "/home/revol/.weechat/python/autoload/giphy.py"
+2018-12-13 00:49:32		URL server listening on ('127.0.1.1', 36029)
+2018-12-13 00:49:32	=!=	WARNING: the script weeget.py is obsolete since WeeChat 0.3.9 (it is replaced by command /script)
+2018-12-13 00:49:32	=!=	To uninstall weeget.py: /weeget remove weeget.py
+2018-12-13 00:49:32		python scripts loaded: autoconf, colorize_nicks, cron, go, listbuffer, notification, tmux_env, urlserver, weeget
+2018-12-13 00:49:32		script: 357 scripts for WeeChat 1.6
+2018-12-13 00:49:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-12-13 00:49:37	=!=	irc: unable to add temporary server "pvl" because the addition of temporary servers with command /connect is currently disabled
+2018-12-13 00:49:37	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-12-13 00:49:47		irc: server pvl added
+2018-12-13 00:49:56	=!=	irc: command "query" must be executed on connected irc server
+2018-12-14 21:49:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 3287 192.168.2.100 22' (was '192.168.2.2 13724 192.168.2.100 22')
+2018-12-18 04:12:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 19155 192.168.2.100 22' (was u'192.168.2.2 3287 192.168.2.100 22')
+2018-12-18 05:20:32		tmux_env: remove SSH_CONNECTION (was u'192.168.2.2 19155 192.168.2.100 22')
+2018-12-18 05:23:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 22310 192.168.2.100 22' (was None)
+2018-12-18 13:34:16	=!=	irc: command "query" must be executed on irc buffer (server or channel)
+2018-12-25 17:27:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 59063 192.168.2.100 22' (was u'192.168.2.2 22310 192.168.2.100 22')
+2018-12-25 21:38:31		Options saved to sec.conf
+2018-12-25 21:38:31		Options saved to weechat.conf
+2018-12-25 21:38:31		Options saved to plugins.conf
+2018-12-25 21:38:31		Options saved to charset.conf
+2018-12-25 21:38:31		Options saved to logger.conf
+2018-12-25 21:38:31		Options saved to exec.conf
+2018-12-25 21:38:31		Options saved to trigger.conf
+2018-12-25 21:38:31		Options saved to aspell.conf
+2018-12-25 21:38:31		Options saved to alias.conf
+2018-12-25 21:38:31		Options saved to xfer.conf
+2018-12-25 21:38:31		Options saved to irc.conf
+2018-12-25 21:38:31		Options saved to relay.conf
+2018-12-25 21:38:31		Options saved to buffers.conf
+2018-12-25 21:38:31		Options saved to colorize_nicks.conf
+2018-12-25 21:38:31		Options saved to wg.conf
+2018-12-25 21:38:31		Options saved to script.conf
+2018-12-25 21:38:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 32979 192.168.2.100 22' (was u'80.223.70.157 59063 192.168.2.100 22')
+2019-01-01 21:11:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 57795 192.168.2.100 22' (was u'80.223.70.157 32979 192.168.2.100 22')
+2019-01-08 10:39:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-LHFAIlXiHD/agent.30641' (was None)
+2019-01-08 10:39:32		tmux_env: add SSH_CONNECTION=u'188.238.141.73 13154 192.168.2.100 22' (was u'192.168.2.2 57795 192.168.2.100 22')
+2019-01-09 20:02:02		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-LHFAIlXiHD/agent.30641')
+2019-01-09 20:02:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 2329 192.168.2.100 22' (was u'188.238.141.73 13154 192.168.2.100 22')
+2019-01-10 11:26:02		tmux_env: add SSH_CONNECTION=u'130.230.144.168 47236 192.168.2.100 22' (was u'192.168.2.2 2329 192.168.2.100 22')
+2019-01-10 15:19:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 5476 192.168.2.100 22' (was u'130.230.144.168 47236 192.168.2.100 22')
+2019-01-14 09:44:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 3762 192.168.2.100 22' (was u'192.168.2.2 5476 192.168.2.100 22')
+2019-01-15 14:52:32		tmux_env: add SSH_CONNECTION=u'130.230.147.204 53408 192.168.2.100 22' (was u'192.168.2.2 3762 192.168.2.100 22')
+2019-01-17 11:48:02		tmux_env: add SSH_CONNECTION=u'130.230.144.81 54836 192.168.2.100 22' (was u'130.230.147.204 53408 192.168.2.100 22')
+2019-01-20 17:13:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 2743 192.168.2.100 22' (was u'130.230.144.81 54836 192.168.2.100 22')
+2019-01-21 19:15:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-tTMcGZmzUR/agent.28079' (was None)
+2019-01-21 19:15:32		tmux_env: add SSH_CONNECTION=u'109.240.232.26 3914 192.168.2.100 22' (was u'192.168.2.2 2743 192.168.2.100 22')
+2019-01-21 19:25:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-wxvpUVY4sN/agent.28407' (was u'/tmp/ssh-tTMcGZmzUR/agent.28079')
+2019-01-21 19:25:32		tmux_env: add SSH_CONNECTION=u'109.240.232.26 3962 192.168.2.100 22' (was u'109.240.232.26 3914 192.168.2.100 22')
+2019-01-21 19:32:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-Ld9gphbibl/agent.28572' (was u'/tmp/ssh-wxvpUVY4sN/agent.28407')
+2019-01-21 19:32:32		tmux_env: add SSH_CONNECTION=u'109.240.232.26 3102 192.168.2.100 22' (was u'109.240.232.26 3962 192.168.2.100 22')
+2019-01-22 10:21:02		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-Ld9gphbibl/agent.28572')
+2019-01-22 10:21:02		tmux_env: add SSH_CONNECTION=u'130.230.144.81 41834 192.168.2.100 22' (was u'109.240.232.26 3102 192.168.2.100 22')
+2019-01-22 10:58:02		tmux_env: add SSH_CONNECTION=u'130.230.144.81 42078 192.168.2.100 22' (was u'130.230.144.81 41834 192.168.2.100 22')
+2019-01-22 13:56:32		tmux_env: add SSH_CONNECTION=u'130.230.147.152 43124 192.168.2.100 22' (was u'130.230.144.81 42078 192.168.2.100 22')
+2019-01-22 14:27:32		tmux_env: add SSH_CONNECTION=u'130.230.147.152 43500 192.168.2.100 22' (was u'130.230.147.152 43124 192.168.2.100 22')
+2019-01-24 10:29:32		tmux_env: add SSH_CONNECTION=u'130.230.148.98 44400 192.168.2.100 22' (was u'130.230.147.152 43500 192.168.2.100 22')
+2019-01-24 12:23:32		tmux_env: add SSH_CONNECTION=u'130.230.144.68 37576 192.168.2.100 22' (was u'130.230.148.98 44400 192.168.2.100 22')
+2019-01-25 19:32:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-mxKNX3cTuA/agent.26794' (was None)
+2019-01-25 19:32:02		tmux_env: add SSH_CONNECTION=u'194.197.235.236 60140 192.168.2.100 22' (was u'130.230.144.68 37576 192.168.2.100 22')
+2019-01-26 00:25:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-rzFsfXIfz6/agent.29423' (was u'/tmp/ssh-mxKNX3cTuA/agent.26794')
+2019-01-26 00:25:32		tmux_env: add SSH_CONNECTION=u'194.197.235.236 60620 192.168.2.100 22' (was u'194.197.235.236 60140 192.168.2.100 22')
+2019-01-27 16:32:32		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-rzFsfXIfz6/agent.29423')
+2019-01-27 16:32:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 50534 192.168.2.100 22' (was u'194.197.235.236 60620 192.168.2.100 22')
+2019-01-29 10:16:02		tmux_env: add SSH_CONNECTION=u'130.230.144.126 60180 192.168.2.100 22' (was u'80.223.70.157 50534 192.168.2.100 22')
+2019-02-05 10:17:32		tmux_env: add SSH_CONNECTION=u'130.230.144.104 51992 192.168.2.100 22' (was u'130.230.144.126 60180 192.168.2.100 22')
+2019-02-13 22:45:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 17871 192.168.2.100 22' (was u'130.230.144.104 51992 192.168.2.100 22')
+2019-02-14 11:25:02		tmux_env: add SSH_CONNECTION=u'130.230.144.104 46532 192.168.2.100 22' (was u'192.168.2.2 17871 192.168.2.100 22')
+2019-02-19 18:09:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 5442 192.168.2.100 22' (was u'130.230.144.104 46532 192.168.2.100 22')
+2019-02-23 21:11:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 34214 192.168.2.100 22' (was u'192.168.2.2 5442 192.168.2.100 22')
+2019-02-24 11:51:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 46653 192.168.2.100 22' (was u'80.223.70.157 34214 192.168.2.100 22')
+2019-02-24 11:54:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 46744 192.168.2.100 22' (was u'80.223.70.157 46653 192.168.2.100 22')
+2019-02-24 14:37:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 51637 192.168.2.100 22' (was u'80.223.70.157 46744 192.168.2.100 22')
+2019-03-01 15:55:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-IGc2SskUmc/agent.10871' (was None)
+2019-03-01 15:55:02		tmux_env: add SSH_CONNECTION=u'85.198.225.66 45142 192.168.2.100 22' (was u'80.223.70.157 51637 192.168.2.100 22')
+2019-03-05 01:43:02		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-IGc2SskUmc/agent.10871')
+2019-03-05 01:43:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 6329 192.168.2.100 22' (was u'85.198.225.66 45142 192.168.2.100 22')
+2019-03-11 12:43:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-icrQxaRyak/agent.435' (was None)
+2019-03-11 12:43:02		tmux_env: add SSH_CONNECTION=u'109.240.211.190 17238 192.168.2.100 22' (was u'192.168.2.2 6329 192.168.2.100 22')
+2019-03-11 12:44:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-CRPjeATJG5/agent.549' (was u'/tmp/ssh-icrQxaRyak/agent.435')
+2019-03-11 12:44:32		tmux_env: add SSH_CONNECTION=u'109.240.211.190 17502 192.168.2.100 22' (was u'109.240.211.190 17238 192.168.2.100 22')
+2019-03-11 13:44:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-0WS5kmLymf/agent.1446' (was u'/tmp/ssh-CRPjeATJG5/agent.549')
+2019-03-11 13:44:02		tmux_env: add SSH_CONNECTION=u'109.240.211.190 18054 192.168.2.100 22' (was u'109.240.211.190 17502 192.168.2.100 22')
+2019-03-13 10:58:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-31GvkC0bTA/agent.31366' (was u'/tmp/ssh-0WS5kmLymf/agent.1446')
+2019-03-13 10:58:02		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7170 192.168.2.100 22' (was u'109.240.211.190 18054 192.168.2.100 22')
+2019-03-13 11:03:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-B2GHHOoPrf/agent.31660' (was u'/tmp/ssh-31GvkC0bTA/agent.31366')
+2019-03-13 11:03:32		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7456 192.168.2.100 22' (was u'188.238.137.215 7170 192.168.2.100 22')
+2019-03-13 11:08:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-v5YRzufubE/agent.32064' (was u'/tmp/ssh-B2GHHOoPrf/agent.31660')
+2019-03-13 11:08:02		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7670 192.168.2.100 22' (was u'188.238.137.215 7456 192.168.2.100 22')
+2019-03-13 11:09:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-DgHt3xkT7U/agent.32204' (was u'/tmp/ssh-v5YRzufubE/agent.32064')
+2019-03-13 11:09:32		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7798 192.168.2.100 22' (was u'188.238.137.215 7670 192.168.2.100 22')
+2019-03-13 11:13:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-yaOrvGK1yf/agent.32543' (was u'/tmp/ssh-DgHt3xkT7U/agent.32204')
+2019-03-13 11:13:32		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7938 192.168.2.100 22' (was u'188.238.137.215 7798 192.168.2.100 22')
+2019-03-13 11:24:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-JhNZw4KIqO/agent.432' (was u'/tmp/ssh-yaOrvGK1yf/agent.32543')
+2019-03-13 11:24:02		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7150 192.168.2.100 22' (was u'188.238.137.215 7938 192.168.2.100 22')
+2019-03-13 11:40:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-exYcHXIGP6/agent.644' (was u'/tmp/ssh-JhNZw4KIqO/agent.432')
+2019-03-13 11:40:02		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7558 192.168.2.100 22' (was u'188.238.137.215 7150 192.168.2.100 22')
+2019-03-13 11:45:02		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-atlaykZjil/agent.1120' (was u'/tmp/ssh-exYcHXIGP6/agent.644')
+2019-03-13 11:45:02		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7610 192.168.2.100 22' (was u'188.238.137.215 7558 192.168.2.100 22')
+2019-03-13 11:48:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-VTyWeCVwnf/agent.1287' (was u'/tmp/ssh-atlaykZjil/agent.1120')
+2019-03-13 11:48:32		tmux_env: add SSH_CONNECTION=u'188.238.137.215 7634 192.168.2.100 22' (was u'188.238.137.215 7610 192.168.2.100 22')
+2019-03-17 22:35:32		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-VTyWeCVwnf/agent.1287')
+2019-03-17 22:35:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 10619 192.168.2.100 22' (was u'188.238.137.215 7634 192.168.2.100 22')
+2019-03-25 12:09:32		tmux_env: add SSH_CONNECTION=u'130.230.144.237 58322 192.168.2.100 22' (was u'192.168.2.2 10619 192.168.2.100 22')
+2019-03-26 08:33:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 6418 192.168.2.100 22' (was u'130.230.144.237 58322 192.168.2.100 22')
+2019-03-30 21:46:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 1572 192.168.2.100 22' (was u'192.168.2.2 6418 192.168.2.100 22')
+2019-04-01 12:20:32		tmux_env: add SSH_CONNECTION=u'130.230.144.237 36432 192.168.2.100 22' (was u'192.168.2.2 1572 192.168.2.100 22')
+2019-04-06 18:19:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 45656 192.168.2.100 22' (was u'130.230.144.237 36432 192.168.2.100 22')
+2019-04-07 00:20:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 48704 192.168.2.100 22' (was u'80.223.70.157 45656 192.168.2.100 22')
+2019-04-07 15:42:32		tmux_env: add SSH_CONNECTION=u'80.223.70.157 50858 192.168.2.100 22' (was u'80.223.70.157 48704 192.168.2.100 22')
+2019-04-08 12:26:02		tmux_env: add SSH_CONNECTION=u'130.230.144.237 51930 192.168.2.100 22' (was u'80.223.70.157 50858 192.168.2.100 22')
+2019-04-13 11:39:32		tmux_env: add SSH_CONNECTION=u'192.168.2.2 2612 192.168.2.100 22' (was u'130.230.144.237 51930 192.168.2.100 22')
+2019-04-15 14:25:32		tmux_env: add SSH_AUTH_SOCK=u'/tmp/ssh-PQmz7HXrxc/agent.9933' (was None)
+2019-04-15 14:25:32		tmux_env: add SSH_CONNECTION=u'109.240.36.98 12366 192.168.2.100 22' (was u'192.168.2.2 2612 192.168.2.100 22')
+2019-04-19 21:42:02		tmux_env: remove SSH_AUTH_SOCK (was u'/tmp/ssh-PQmz7HXrxc/agent.9933')
+2019-04-19 21:42:02		tmux_env: add SSH_CONNECTION=u'192.168.2.2 2612 192.168.2.100 22' (was u'109.240.36.98 12366 192.168.2.100 22')
+2019-04-20 13:22:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 35240 192.168.2.100 22' (was u'192.168.2.2 2612 192.168.2.100 22')
+2019-04-21 17:34:02		tmux_env: add SSH_CONNECTION=u'80.223.70.157 53609 192.168.2.100 22' (was u'80.223.70.157 35240 192.168.2.100 22')

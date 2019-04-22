@@ -14,7 +14,7 @@ ln -fs $CONFIG_ROOT/dotfiles/.* $HOME
 echo "linked dotfiles"
 
 # Binaries
-ln -fs $CONFIG_ROOT/bin $HOME
+ln -fs $CONFIG_ROOT/bin/* $HOME/bin
 echo "linked binaries to $HOME/bin"
 chmod -R +x $HOME/bin
 echo "made sure everything in $HOME/bin is executable"

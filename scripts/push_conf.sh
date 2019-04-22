@@ -22,3 +22,7 @@ echo "made sure everything in $HOME/bin is executable"
 # Home ".config"
 ln -fs $CONFIG_ROOT/home_config/* $HOME/.config/
 echo "linked things to $HOME/.config"
+
+# Reload i3
+i3-msg -t command restart
+echo "Restarted i3"

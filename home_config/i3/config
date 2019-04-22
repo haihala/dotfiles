@@ -169,3 +169,5 @@ bar {
         status_command i3status
 }
 exec watch -n 20 wallpaper_update 
+
+exec nm-applet

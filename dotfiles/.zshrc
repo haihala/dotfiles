@@ -98,6 +98,8 @@ alias ls="ls --color"
 alias ll="ls -lAh"
 alias vi=vim
 alias xclip -selection clipboard
+alias note="nocorrect note"
+
 
 ## ENV
 EDITOR=vim

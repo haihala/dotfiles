@@ -74,11 +74,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_GB.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-	export EDITOR='vim'
-else
-	export EDITOR='vim'
-fi
+export EDITOR='vim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
@@ -99,7 +95,3 @@ alias ll="ls -lAh"
 alias vi=vim
 alias xclip -selection clipboard
 alias note="nocorrect note"
-
-
-## ENV
-EDITOR=vim

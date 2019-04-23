@@ -11,15 +11,25 @@ Stuff in `home_config` are automatically linked to `$HOME/.config`
 
 Stuff in `non_linked` isn't linked anywhere, but I still think I should have handy
 
-Some things in `scripts` are linked to `bin` with abreviated names, `bin` is linked to `$HOME/bin`
+Some things in `scripts` are linked to `$HOME/bin` with abreviated names.
 
-## Requirements
+## Contents
+
+Configs for the following 
 
 - zsh
 - vim
-- xorg
 - i3
-- ssh
-    - ssh key in .ssh/id_rsa(.pub)
-- NetworkManager and nm-applet
+- i3bar
 
+The following is also used but everything should work even if not
+
+- NetworkManager and nm-applet
+- ssh-agent
+
+## Meta config
+linked_scripts - each line has name `X`. `push_conf` attempts to link `scripts/X.sh` to `$HOME/bin/X`
+
+## Usage
+Please check dotfiles and home_config beforehand. Taking a look at `scripts/push_conf.sh` before running it is also recommended.
+Run `scripts/push_conf.sh`

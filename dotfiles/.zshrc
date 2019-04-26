@@ -62,7 +62,7 @@ HIST_STAMPS="yyyy/mm/dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(autopep8 cabal cake capistrano catimg chucknorris coffee django docker encode64 extract gem git gitfast git-extras git-flow github jira jsontools meteor ng node perl perms pip python rand-quote repo ruby scala sudo systemd vscode wd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -92,6 +92,16 @@ export ARCHFLAGS="-arch x86_64"
 ## Aliases
 alias ls="ls --color"
 alias ll="ls -lAh"
-alias vi=vim
-alias xclip -selection clipboard
+alias vi="vim"
+alias xclip="xclip -selection clipboard"
 alias note="nocorrect note"
+alias H="| head"
+alias T="| tail"
+alias G="| grep"
+alias L="| less"
+alias M="| most"
+alias LL="2>&1 | less"
+alias CA="2>&1 | cat -A"
+alias NE="2> /dev/null"
+alias NUL="> /dev/null 2>&1"
+alias P="2>&1| pygmentize -l pytb"

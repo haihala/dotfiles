@@ -1,6 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
-DIRNAME="$HOME/Documents/notes"
+source lib_metaconfig
+
+DIRNAME=`cat $METACONFIG/note`
+echo $DIRNAME
 
 if [ ! -d "$DIRNAME" ]; then
     mkdir -p $DIRNAME

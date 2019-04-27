@@ -105,3 +105,7 @@ alias CA="2>&1 | cat -A"
 alias NE="2> /dev/null"
 alias NUL="> /dev/null 2>&1"
 alias P="2>&1| pygmentize -l pytb"
+
+
+## Run .bashrc
+[ -n ] && [ -f ~/.bashrc ] && . ~/.bashrc

@@ -2,16 +2,11 @@
 
 source lib_metaconfig
 
-DIRNAME=`cat $METACONFIG/note`
-echo $DIRNAME
-
-if [ ! -d "$DIRNAME" ]; then
-    mkdir -p $DIRNAME
-fi
-
+DIRNAME=load_metaconfig note
 
 NOTE="$DIRNAME/$1"
 
+echo $NOTE
 if [ -z $2  ]; then
     $EDITOR $NOTE
 else

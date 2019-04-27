@@ -1,6 +1,8 @@
 #!/bin/bash
 
 source lib_metaconfig
+load_metaconfig linked_scripts
+echo ${TO_LINK_SCRIPTS[@]}
 
 bold=$(tput smso)
 normal=$(tput sgr0)
@@ -29,10 +31,10 @@ if [ ! -d $HOME/bin ]; then
     echo "~/bin doesn't exist, creating"
     mkdir $HOME/bin
 fi
-while read s; do
+for s in "${TO_LINK_SCRIPTS[@]}"; do
     echo "linked $s to bin"
     ln -fs $CONFIG_ROOT/scripts/$s.sh $HOME/bin/$s
-done <meta_config/linked_scripts
+done
 
 # Home ".config"
 header $HOME/.config

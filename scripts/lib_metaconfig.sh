@@ -14,7 +14,6 @@ load_metaconfig () {
 		echo "load_metaconfig needs an argument"
         exit 1
     fi
-	echo $DEFAULT_METACONFIG
     if [ -f $DEFAULT_METACONFIG/$1.conf.sh ]; then
         source $DEFAULT_METACONFIG/$1.conf.sh
     fi

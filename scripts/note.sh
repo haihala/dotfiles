@@ -1,12 +1,12 @@
 #!/bin/bash
-
 source lib_metaconfig
-
-DIRNAME=load_metaconfig note
-
+load_metaconfig note
 NOTE="$DIRNAME/$1"
+if [ ! -d $DIRNAME ]; then
+	mkdir -p $DIRNAME
+fi
 
-echo $NOTE
+
 if [ -z $2  ]; then
     $EDITOR $NOTE
 else

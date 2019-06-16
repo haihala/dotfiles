@@ -7,12 +7,15 @@ done
 CONFIG_ROOT="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 CONFIG_ROOT="$(dirname "$CONFIG_ROOT")"
 METACONFIG=$CONFIG_ROOT/meta_config
+DEFAULT_METACONFIG=$CONFIG_ROOT/default_meta_config
 
 load_metaconfig () {
     if [ -z "$1" ]; then
+		echo "load_metaconfig needs an argument"
         exit 1
     fi
-    if [ -d $DEFAULT_METACONFIG/$1.conf.sh ]; then
+	echo $DEFAULT_METACONFIG
+    if [ -f $DEFAULT_METACONFIG/$1.conf.sh ]; then
         source $DEFAULT_METACONFIG/$1.conf.sh
     fi
     if [ -f $METACONFIG/$1.conf.sh ]; then

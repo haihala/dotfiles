@@ -35,4 +35,4 @@ fi
 xset b off
 
 # Start wm
-exec i3 --shmlog-size=26214400
+exec i3 >~/i3log/$(date +'%F-%k-%M-%S') 2>&1

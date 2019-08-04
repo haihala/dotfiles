@@ -11,7 +11,7 @@ Stuff in `home_config` are automatically linked to `$HOME/.config`
 
 Stuff in `non_linked` isn't linked anywhere, but I still think I should have handy
 
-Some things in `scripts` are linked to `$HOME/bin` with abreviated names.
+Some things in `scripts` are linked to `$HOME/bin` with abbreviated names.
 
 ## Contents
 

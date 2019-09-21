@@ -30,6 +30,7 @@ Section "InputDevice"
 	Option	    "Protocol" "auto"
 	Option	    "Device" "/dev/input/mice"
 	Option	    "ZAxisMapping" "4 5 6 7"
+	Option      "Tapping" "on"
 EndSection
 
 Section "Monitor"

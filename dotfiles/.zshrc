@@ -70,6 +70,9 @@ source $ZSH/oh-my-zsh.sh
 
 export MANPATH="/usr/local/man:$MANPATH"
 
+# Cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # You may need to manually set your language environment
 export LANG=en_GB.UTF-8
 
@@ -106,7 +109,7 @@ alias NE="2> /dev/null"
 alias NUL="> /dev/null 2>&1"
 alias P="2>&1| pygmentize -l pytb"
 alias python="python3"
-
+alias agent="eval `ssh-agent` ssh-add"
 
 ## Run .bashrc
 [ -n ] && [ -f ~/.bashrc ] && . ~/.bashrc

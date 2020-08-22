@@ -55,7 +55,7 @@ Section "Device"
 	Identifier  "Integrated"
 	Driver      "modesetting"
 	BusID       "PCI:0:2:0"
-    Option      "Backlight"  "intel_backlight"
+	Option      "Backlight"  "intel_backlight"
 EndSection
 
 Section "Screen"

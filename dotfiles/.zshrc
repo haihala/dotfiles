@@ -73,6 +73,9 @@ export MANPATH="/usr/local/man:$MANPATH"
 # Cargo
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# local bin 
+export PATH="$HOME/.local/bin:$PATH"
+
 # You may need to manually set your language environment
 export LANG=en_GB.UTF-8
 

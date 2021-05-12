@@ -99,13 +99,12 @@ alias v="vi"
 alias vi="vim"
 alias vim="nvim"
 
-alias note="nocorrect note"
 alias python="python3"
 alias agent='killall ssh-agent; eval $(ssh-agent) ssh-add'
 alias arandr="wdisplays"
 alias reload='source ~/.zshrc'
 alias zshconfig='$EDITOR $HOME/.zshrc'
-alias swayconfig='$EDITOR $HOME/.config/i3/config'
+alias swayconfig='$EDITOR $HOME/.config/sway/config'
 alias cargo='nocorrect cargo'
 
 ## Run .bashrc

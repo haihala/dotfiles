@@ -1,11 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-	name = =
-	email = eero.haihala@gmail.com
-	email = =
-	name = =
 	name = Eero Häihälä
+	email = eero.haihala@gmail.com
 	email = eero.haihala@vincit.fi
 [color]
 	diff = auto

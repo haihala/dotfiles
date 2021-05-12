@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="yyyy/mm/dd"
+HIST_STAMPS="%c"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -62,7 +62,7 @@ HIST_STAMPS="yyyy/mm/dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autopep8 cabal cake capistrano catimg chucknorris coffee django docker encode64 extract gem git gitfast git-extras git-flow github jira jsontools meteor ng node perl perms pip python rand-quote repo ruby scala sudo systemd vscode wd)
+plugins=(autopep8 cabal cake capistrano catimg chucknorris coffee django docker encode64 extract gem git gitfast git-extras git-flow github jira jsontools meteor ng node npm perl perms pip python rand-quote repo ruby scala sudo systemd vscode wd z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -82,9 +82,6 @@ export LANG=en_GB.UTF-8
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
-# Compilation flags
-export ARCHFLAGS="-arch x86_64"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -96,23 +93,23 @@ export ARCHFLAGS="-arch x86_64"
 
 # Custom stuff
 ## Aliases
-alias ls="ls --color"
-alias ll="ls -lAh"
+alias ll="sl"	# 'l' is enough
+
+alias v="vi"
 alias vi="vim"
-alias xclip="xclip -selection clipboard"
+alias vim="nvim"
+
 alias note="nocorrect note"
-alias H="| head"
-alias T="| tail"
-alias G="| grep"
-alias L="| less"
-alias M="| most"
-alias LL="2>&1 | less"
-alias CA="2>&1 | cat -A"
-alias NE="2> /dev/null"
-alias NUL="> /dev/null 2>&1"
-alias P="2>&1| pygmentize -l pytb"
 alias python="python3"
 alias agent='killall ssh-agent; eval $(ssh-agent) ssh-add'
+alias arandr="wdisplays"
+alias reload='source ~/.zshrc'
+alias zshconfig='$EDITOR $HOME/.zshrc'
+alias swayconfig='$EDITOR $HOME/.config/i3/config'
+alias cargo='nocorrect cargo'
 
 ## Run .bashrc
 [ -n ] && [ -f ~/.bashrc ] && . ~/.bashrc
+
+eval "$(direnv hook zsh)"
+

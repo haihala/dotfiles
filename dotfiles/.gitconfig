@@ -1,5 +1,28 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = Eero Häihälä
+	name = =
 	email = eero.haihala@gmail.com
+	email = =
+	name = =
+	name = Eero Häihälä
+	email = eero.haihala@vincit.fi
+[color]
+	diff = auto
+	branch = auto
+	status = auto
+[core]
+	editor = vim
+	autocrlf = off
+	safecrlf = off
+[cola]
+	spellcheck = false
+[rebase]
+	autosquash = true
+[rerere]
+	enabled = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

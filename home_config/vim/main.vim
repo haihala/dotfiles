@@ -1,23 +1,19 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin('~/.config/vim/plugins')
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'airblade/vim-gitgutter'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end()
 
-" Custom plugins
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'airblade/vim-gitgutter'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
 filetype plugin on    " required
+"autocmd bufwritepost * :call CocAction('format')
 
 set ruler
 set visualbell
@@ -39,12 +35,24 @@ set smartindent
 " File explorer
 map <C-e> :NERDTreeToggle<CR>
 
+" Splits behavior
+set splitbelow
+set splitright
+
+nnoremap <C-up> <C-W><C-K>
+nnoremap <C-down> <C-W><C-J>
+nnoremap <C-left> <C-W><C-H>
+nnoremap <C-right> <C-W><C-L>
+
 " Outlook
-hi Visual term=reverse cterm=reverse guibg=grey
-hi Cursor guifg=white guibg=black
+hi Visual term=reverse cterm=reverse guibg=Grey
+hi Cursor cterm=None guifg=White guibg=Black
+hi Search cterm=None guifg=Blue guibg=Red
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
+colorscheme default
+

@@ -19,11 +19,11 @@ do
     echo "linked $dot to $HOME/$dot"
 done
 
-if [ ! -d $HOME/bin ]; then
-    ln -fs `pwd`/bin $HOME/bin
-    echo "~/bin doesn't exist, linking"
-else
+if [[ ! -L $HOME/bin && -d $HOME/bin ]]; then
 	echo -e "\e[33m$HOME/bin exists, please delete and rerun script to link\e[0m"
+else
+    ln -fs `pwd`/bin $HOME/bin
+    echo "linked bin to $HOME/bin"
 fi
 
 for conf in `ls -AL home_config/`

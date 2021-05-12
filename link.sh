@@ -22,7 +22,7 @@ done
 if [[ ! -L $HOME/bin && -d $HOME/bin ]]; then
 	echo -e "\e[33m$HOME/bin exists, please delete and rerun script to link\e[0m"
 else
-    ln -fs `pwd`/bin $HOME/bin
+    ln -fs `pwd`/bin $HOME
     echo "linked bin to $HOME/bin"
 fi
 

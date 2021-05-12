@@ -1,3 +1,0 @@
-[submodule "dotfiles/.vim_runtime"]
-	path = dotfiles/.vim_runtime
-	url = git@github.com:haihala/vimrc.git

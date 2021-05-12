@@ -1,3 +1,3 @@
-set runtimepath+=~/.config/vim
+set runtimepath+=~/.config/nvim
 
-source ~/.config/vim/main.vim
+source ~/.config/nvim/main.vim

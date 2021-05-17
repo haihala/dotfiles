@@ -112,3 +112,6 @@ alias cargo='nocorrect cargo'
 
 eval "$(direnv hook zsh)"
 
+# -- START ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+export PATH="/home/eeroh/.cache/activestate/bin:$PATH"
+# -- STOP ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT

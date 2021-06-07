@@ -2,9 +2,9 @@ dnf install \
 	acpi \
 	alacritty \
 	chromium \
+	durst \
 	git \
 	grim \
-	mako \
 	neovim \
 	python3 \
 	slurp \

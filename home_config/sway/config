@@ -126,8 +126,10 @@ bindsym $mod+p exec grim -g "$(slurp -d)" - | wl-copy
 ### Screenshot (Display) to clipboard
 bindsym $mod+Shift+p exec grim -g "$(slurp -o -d)" - | wl-copy
 
-### Firefox
+### Quick launchers
 bindsym $mod+f exec firefox
+bindsym $mod+c exec code
+bindsym $mod+m exec chromium-browser meet.google.com
 
 ### split in horizontal orientation
 bindsym $mod+b split h

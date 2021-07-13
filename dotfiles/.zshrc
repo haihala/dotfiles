@@ -8,7 +8,7 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="%c"
 
-plugins=(autopep8 cabal cake capistrano catimg chucknorris coffee django docker encode64 extract gem git gitfast git-extras git-flow github jira jsontools meteor ng node npm perl perms pip python rand-quote repo ruby scala sudo systemd vscode wd z)
+plugins=(autojump autopep8 cabal cake capistrano catimg chucknorris coffee django docker encode64 extract gem git gitfast git-extras git-flow github jira jsontools meteor ng node npm perl perms pip python rand-quote repo ruby scala sudo systemd vscode wd z zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -40,6 +40,7 @@ alias zshconfig='$EDITOR $HOME/.zshrc'
 alias swayconfig='$EDITOR $HOME/.config/sway/config'
 alias battery_percent="acpi -b | head -n 1 | grep -P -o '[0-9]+(?=%)'"
 alias cargo='nocorrect cargo'
+alias cap='copy-abs-path'
 
 ## Run .bashrc
 [ -n ] && [ -f ~/.bashrc ] && . ~/.bashrc

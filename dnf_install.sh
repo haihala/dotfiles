@@ -1,6 +1,7 @@
 dnf install \
 	acpi \
 	alacritty \
+	autojump-zsh \
 	chromium \
 	durst \
 	git \

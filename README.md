@@ -12,6 +12,7 @@ A bunch of simple scripts and dotfiles I use. Should eventually be able to recre
 	3. mpv - [link](https://forums.fedoraforum.org/showthread.php?324163-install-mpv-player-on-fedora32&p=1835826#post1835826)
 	4. oh-my-zsh - [link](https://ohmyz.sh/)
 	5. z - [link](https://github.com/agkozak/zsh-z)
+	6. zsh-autosuggestions - [link](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 4. Run `./link.sh` from the repository root
 5. Check git email with `git config user.email`
 
